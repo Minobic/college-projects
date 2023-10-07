@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table, th, td {
+        border: solid black;
+        border-collapse: collapse;
+        }
+        /* th, td {
+            padding: 5px;
+        } */
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th colspan="4">Central text</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">col(1)</td>
+                <td colspan="2">col(2)</td>
+            </tr>
+            <tr>
+                <tr>
+                    <td>text1</td>
+                    <td>text2</td>
+                    <td rowspan="2">text3</td>
+                    <td rowspan="2">text4</td>
+                </tr>
+                <tr>
+                    <td>text5</td>
+                    <td>text6</td>
+                </tr>
+            </tr>
+            <tr>
+                <td>text7</td>
+                <td>text8</td>
+                <td>text9</td>
+                <td>text10</td>
+            </tr>
+        </tbody>
+      </table>
+</body>
+</html>
